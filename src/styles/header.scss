@@ -27,7 +27,8 @@
   }
 
   &__nav-link {
-    color: #060b35;
+    color: $dark-blue;
+    transition: color 300ms ease;
     white-space: nowrap;
     text-decoration: none;
     padding-top: 23px;

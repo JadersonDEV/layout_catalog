@@ -10,8 +10,8 @@
   }
 
   &__star {
-    width: 16px;
-    height: 16px;
+    width: $star-size;
+    height: $star-size;
     border-radius: 0.5px;
 
     background-image: url(../images/star.svg);
