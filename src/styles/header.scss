@@ -23,12 +23,12 @@
   }
 
   &__nav-item:not(:first-child) {
-    margin-left: 20px;
+    margin-left: $margin-left;
   }
 
   &__nav-link {
     color: $dark-blue;
-    transition: color 300ms ease;
+    transition: color $transition-duration ease;
     white-space: nowrap;
     text-decoration: none;
     padding-top: 23px;

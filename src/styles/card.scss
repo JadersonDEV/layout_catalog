@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: repeat(1, 200px);
   justify-content: center;
-  box-sizing: border-box;
   gap: $gap-y $gap-x;
   padding: $catalog-padding-vertical $catalog-padding-horizontal;
   overflow: visible;
@@ -33,6 +32,7 @@
   border-radius: 5px;
   transition: transform $transition-duration;
   will-change: transform;
+  box-sizing: border-box;
 
   &:hover {
     transform-origin: center;
@@ -134,7 +134,7 @@
   }
 
   &__buy:focus-visible {
-    box-shadow: 0 1px 4px rgba (0, 0, 0, 0.1);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
   }
 
   &__buy:hover {
